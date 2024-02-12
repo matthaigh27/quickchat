@@ -1,0 +1,25 @@
+{
+  "name": "PWA App",
+  "short_name": "App",
+  "description": "An example of a PWA using Next.js and TypeScript",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#444654",
+  "theme_color": "#444654",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/splash.png",
+      "sizes": "512x512"
+    }
+  ]
+}
