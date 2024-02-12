@@ -58,6 +58,12 @@
   }
 }
 
+html,
+body {
+  overscroll-behavior: none;
+}
+
+/* TODO: is this still needed? */
 mjx-container[jax="SVG"] > svg {
   display: inline;
 }
